@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>foody restaurant</title>
+     <link rel="stylesheet" href="file.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    </head>
+    <body>
+        <!--Header Section-->
+        <nav class="navbar">
+            <ul class="right-side">
+                <li><a href="foodyrestaurant.html">foodyrestaurant</a></li>
+            </ul>
+            <ul class="left-side">
+                <li><a href="home.html.html">home</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li> <a href="aboutus.html">aboutus</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <!--hero section-->
+        <section id="hero" class="text-center text-white" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1W0HgvpABH7IJlbJJqB5EnCtuvYiMxqx3yHuhtiZ5Mvzfjgnzg4SovJostYJdqOpInmg&usqp=CAU'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div>
+                    <h1 class="display-4">Welcome to Foody Restaurant</h1>
+                    <p class="lead">Savor the taste of perfection</p>
+                    <a href="#menu" class="btn btn-primary btn-lg">View Menu</a>
+                </div>
+            </div>
+        </section>
+        <!--Menu Section-->
+        <section id="menu" class="py-5">
+            <h1>Our Menu</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="imgBx">
+                        <a href="#">
+                            <img src="https://www.andy-cooks.com/cdn/shop/articles/20231015095248-andy-20cooks-20-20ratatouille.jpg?v=1697366902&width=1600"width="270"height="200" class="card-img-top" alt="Dish 1"> </a>
+                        <h1>ratatouille</h1>
+                        <p><br>A hearty and colorful vegetable, It features a medley of fresh vegetables zucchini, eggplant, bell peppers, tomatoes, and onions,<br> all simmered together with olive oil, garlic, and herbs such as thyme and basil.</p>
+                        <p class="fw-bold">$15.99</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <a href="#">
+                            <img src="https://seasaltsavorings.com/wp-content/uploads/2020/12/Red-wine-pasta-sauce-3.jpg"width="270"height="200" class="card-img-top" alt="Dish 2">
+                         </a>
+                        <h2>pasta au vin</h2>
+                        <p><br>Pasta au Vin is a dish cooked directly in a rich red wine sauce,<br> aromatic flavor. Key ingredients include garlic, shallots, olive oil, butter, and red wine, including mushrooms ,<br> Finished with a sprinkle of parmesan, enjoy.</p>
+                        <p class="fw-bold"> <br>20.15</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <a href="#">
+                            <img src="https://images.getrecipekit.com/20221201172531-seafood-bouillabaisse.jpg"width="270"height="200" class="card-img-top"alt="Dish 3">  
+                        </a>
+                        <h3>Bouillabaisse</h3>
+                       <p><br>Bouillabaisse combines a variety of fresh fish and shellfish (such as sea bass, monkfish, and mussels) <br>with aromatic herbs, saffron, fennel, and a tomato-based broth.<br> Traditionally served with a side of rouille (a spicy garlic and saffron mayonnaise) and crusty bread.</p>   
+                       <p class="fw-bold">$19.99</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about us-->
+        <section id="about" class="py-5 bg-light">
+            <div class="row">
+                
+                    <div class="left-side">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/65/16/98/1000_F_265169821_CnQKJoI8Aifk4gNdJJPCRNOgCty2E4JH.jpg"width="600" height="400" alt="About Us" class="img-fluid">
+                    </div>
+                    <div class="right-side">
+                        <h2>About Us</h2>
+                        <p>
+                            Welcome to Fictional Restaurant, <br>where we serve the finest dishes made with fresh, local ingredients.
+                            Our team of chefs is passionate about delivering exceptional dining experiences.
+                        </p>
+                        <p>
+                            Whether you're here for a quick bite or a special occasion, we guarantee you'll leave satisfied and smiling.
+                        </p>
+                    </div>
+            </div>
+        </section>
+        <!--contact us-->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Contact Us</h2>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+      <!--footer-->  
+      <footer class="py-3 bg-dark text-white text-center">
+        <fp class="mb-0">&copy; 2024 Fictional Restaurant. All Rights Reserved.</p>
+        <div class="mt-2">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </footer> 
+
+        
+    </body> 
+
+</html>
